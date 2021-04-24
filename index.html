@@ -68,8 +68,21 @@
       <section class="hero">
         <div class="conteiner">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button">Заказать услугу</button>
+          <button type="button" class="button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
+        <!-- modal window -->
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button type="button" class="button-close" data-modal-close>
+              <svg class="icon-modal" width="18" height="18">
+                <use href="./img/symbol-defs.svg#icon-close-black"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- about us -->
       </section>
       <section class="section about">
         <div class="conteiner">
@@ -390,9 +403,6 @@
               </a>
             </li>
           </ul>
-          <svg>
-            <use href="./img/symbol-defs.svg#icon-close-black"></use>
-          </svg>
         </div>
       </section>
     </main>
@@ -458,6 +468,7 @@
         <div class="part"></div>
       </div>
     </footer>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>

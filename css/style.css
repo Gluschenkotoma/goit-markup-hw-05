@@ -623,12 +623,12 @@ img {
   display: flex;
   flex-direction: column;
 }
-.card:hover .overlay {
+/* .card:hover .overlay {
   opacity: 1;
 }
 .card:hover .thumb {
   transform: translateY(0);
-}
+} */
 
 .card-content {
   flex-grow: 1;

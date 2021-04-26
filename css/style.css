@@ -646,7 +646,8 @@ img {
   background-color: var(--bgc-position-portfolio);
   transform: translateY(100%);
 }
-.card:hover .overlay {
+.link-cardset:hover .overlay,
+.link-cardset:focus .overlay {
   transform: translateY(0);
   transition: transform var(--transit-time) var(--timing);
 }

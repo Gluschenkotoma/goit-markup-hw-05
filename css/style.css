@@ -176,6 +176,7 @@ img {
 }
 .contact-icon {
   fill: currentColor;
+  margin-right: 8px;
 }
 /* hero */
 .hero {

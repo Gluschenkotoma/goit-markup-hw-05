@@ -131,7 +131,6 @@ img {
 .current::after {
   position: absolute;
   content: "";
-  /* left: 0; */
   bottom: -1px;
 
   display: block;
@@ -272,7 +271,6 @@ img {
 
 .modal {
   position: absolute;
-  z-index: 100;
   top: 50%;
   left: 50%;
 
